@@ -28,7 +28,8 @@ class CastOperation():
             for child in list(root.iter()):
                 if tag in re.sub('{.*?}','',str(child.tag)) :
                     return(re.sub('({)|(})|(\')|(\s+)' ,'',str(child.attrib)).split(','))
-                
+            
+            
         self.events =["start","start-ns","end-ns"]
         self.root_ns = None
         self.ns_map = []
