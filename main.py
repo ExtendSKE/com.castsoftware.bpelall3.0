@@ -5,6 +5,7 @@ from cast.analysers import CustomObject,Bookmark,create_link
 from Parser import CastOperation
 from quality_rule import QualityRule
 
+
 wsdl_file_data = {}
 bpel_process_data = {}
 bpel_invoke_data = {}
